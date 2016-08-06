@@ -1,0 +1,76 @@
+/*
+ Theme Name:   Openstrap Child
+ Description:  Open Strap Child Theme
+ Template:     openstrap
+ Version:      1.0.0
+*/
+
+
+@import url("../openstrap/style.css");
+
+/* ----------------------  GENERAL STYLES -------------------------- */
+h1, h2, h3, h4, h5, h6, .widget-title {
+    /*color: rgba(185, 183, 183, 1);*/
+    font-family:"double-pica-sc", "calluna", serif;
+    font-style: normal;
+    font-weight: 300;
+    text-transform: lowercase;
+}
+
+h2, h3, h5, h6:after {
+    border-bottom: 1px solid rgb(128, 128, 128);
+    margin: 0.5em 25% 20px 0px;
+    min-width: 200px;
+    max-width: 40%;
+}
+
+
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	color: #ffffff;
+	background-color: #8c8c8c;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+	color: #ffffff;
+	background-color: #000000;
+	border-style: solid;
+	border-color: #8c8c8c;
+	border-width: 2px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	font-family: "Open Sans", Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px ;
+	font-weight: bold;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+	color: #000000;
+	text-decoration: none;
+	background-color: #ffffff;
+	border-style: solid;
+	border-color: #8c8c8c;
+	border-width: 2px;
+}
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    color: #000000;
+    text-decoration: none;
+    background-color: #ffffff;
+    outline: 0;
+}
+
+.social-icon-box-inner a i {
+    color: #999;
+    text-decoration: none;
+    font-size: 200%;
+}
+
+.social-icon-box-inner a:hover i {
+    color: #fff;
+    text-decoration: none;
+    font-size: 220%;
+}
+
+
